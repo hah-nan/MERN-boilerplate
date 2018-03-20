@@ -58,7 +58,7 @@ class Home extends Component {
           </video>
           <img id="text-overlay" src="/assets/img/barofdreams.png"/>
           <div className="under-text">
-            <button className="btn buy-tx-btn">Get Tickets</button>
+            <a href='https://www.artful.ly/store/events/14826'><button className="btn buy-tx-btn">Get Tickets</button></a>
 
             <i className="fa fa-chevron-down faa-flash animated"/>
           </div>
@@ -86,9 +86,12 @@ class Home extends Component {
               </div> 
             </div>
             <p>
-                Rumours are that a bar has opened in Northampton that serves dream-inducing concoctions. People claim they met Santa Claus there, healed a plumbers leg, and some say they got mixed up with He-Who-Must-Not-Be-Named. At a bar? Yeah right. Find out the truth for yourself.
+              Rumours are that a bar has opened in Northampton that serves dream-inducing concoctions. People claim they met Santa Claus there, healed a plumbers leg, and some say they got mixed up with He-Who-Must-Not-Be-Named. At a bar? Yeah right. Find out the truth for yourself.
             </p>
-            <button className="btn buy-tx-btn">Get Tickets</button>
+            <p>
+               Ticket price includes 3 drinks and a souvenir. Tickets available March 29-April 14
+            </p>
+            <a href='https://www.artful.ly/store/events/14826'><button className="btn buy-tx-btn">Get Tickets</button></a>
 
             <div className="faq">
 

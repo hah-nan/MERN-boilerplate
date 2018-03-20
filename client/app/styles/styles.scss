@@ -31,6 +31,11 @@ button.buy-tx-btn{
 }
 
 #hero{
+
+	a{
+		text-decoration:none;
+	}
+
 	text-align:center;
 	position:relative;
 
@@ -161,15 +166,16 @@ button.buy-tx-btn{
 	margin-top:-5px;
 
   background-size: 100%;
-  background: linear-gradient(to bottom, #111 0%, #111 30%, #1f0d1e 60%, #1f0d1e 100%); 
+  /* background: linear-gradient(to bottom, #111 0%, #111 30%, #1f0d1e 60%, #1f0d1e 100%); */
   display: inline-block;
+  background-color:black;
   position: relative;
   z-index: 100;
 
   text-align:center;
 
   &:before {
-		background: linear-gradient(to bottom, #111 0%, #111 30%, #0c2223 60%, #0c2223 100%); 
+		/* background: linear-gradient(to bottom, #111 0%, #111 30%, #0c2223 60%, #0c2223 100%); */
     content: '';    
     display: block;
     height: 100%;
@@ -205,6 +211,10 @@ button.buy-tx-btn{
  			}
  			.section{
  				flex:1;
+ 				a{
+ 					text-decoration:underline;
+				}
+
  				@media (max-width:640px){
  					margin-top:20px;
  				}
@@ -219,14 +229,17 @@ button.buy-tx-btn{
  			text-align:left;
 
 		}
+
 		a{
 			color:white;
+			text-decoration:none;
 		}
 
 		.buy-tx-btn{
 			margin-top:20px;
 			border-color:white;
 			color:white;
+
 			&:hover{
 				color:black;
 			}
