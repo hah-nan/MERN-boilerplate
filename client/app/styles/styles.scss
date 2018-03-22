@@ -25,9 +25,9 @@ button.buy-tx-btn{
 		background: #fff;
 		border-color:#fff;
 	}
-	/*@media (min-width: 1076px){
+	@media (min-width: 480px){
 		display:none;
-	}*/
+	}
 }
 
 #hero{
@@ -227,6 +227,9 @@ button.buy-tx-btn{
  		}
  		p{
  			text-align:left;
+ 			a{
+				text-decoration:underline;
+			}
 
 		}
 

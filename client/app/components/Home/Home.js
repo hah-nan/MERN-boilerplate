@@ -82,7 +82,7 @@ class Home extends Component {
               </div>
               <div className='section'>
                 <i className="fa icon fa-clock-o"/>
-                Thu-Sat at 5pm and 7pm <a href='mailto:barofdreams@gmail.com'>Other times available</a> Around 90 minutes
+                Thu-Sat at 5pm and 7pm <a href='mailto:pedigojon@gmail.com'>Other times available</a> Around 90 minutes
               </div> 
             </div>
             <p>
@@ -90,6 +90,9 @@ class Home extends Component {
             </p>
             <p>
                Ticket price includes 3 drinks and a souvenir. Tickets available March 29-April 14
+            </p>
+            <p>
+               Learn about more shows from the creator of Bar of Dreams on <a href='https://www.instagram.com/jonathan_pedigo/'>Instagram</a> or <a href='https://twitter.com/jonpedigo'>Twitter</a>
             </p>
             <a href='https://www.artful.ly/store/events/14826'><button className="btn buy-tx-btn">Get Tickets</button></a>
 
