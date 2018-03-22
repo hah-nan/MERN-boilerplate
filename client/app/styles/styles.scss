@@ -25,9 +25,7 @@ button.buy-tx-btn{
 		background: #fff;
 		border-color:#fff;
 	}
-	@media (min-width: 480px){
-		display:none;
-	}
+
 }
 
 #hero{
@@ -147,7 +145,12 @@ button.buy-tx-btn{
 }
 
 #copy{
-
+	button.buy-tx-btn{
+		@media (min-width: 480px){
+			display:none;
+		}
+	}
+	
 	video{
 		width:100%;
 		-moz-transform:rotate(180deg);
